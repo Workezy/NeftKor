@@ -4,7 +4,7 @@ body {
 }
 header {
   background-image: url("../img/bg-header.png");
-  /* height: 1142px; */
+  height: 1142px;
   /* background-size: 100% 100%; */
 }
 .container {
@@ -107,4 +107,68 @@ header {
   text-align: center;
 
   color: #ffffff;
+}
+
+.types-fuel {
+  display: flex;
+  flex-wrap: wrap;
+}
+.diesel-bg {
+  background-size: 100% 100%;
+  background-position: center;
+  background-image: url('../img/diesel.png');
+  background-repeat: no-repeat;
+}
+.marine-bg {
+  background-size: cover;
+  background-position: center;
+  background-image: url('../img/marine.png');
+  background-repeat: no-repeat;
+}
+.heating-bg {
+}
+.heating-fuel {
+  position: relative;
+}
+.fuel-box {
+  /* width: 530px; */
+  /* height: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(44, 44, 44, 0.8);
+  backdrop-filter: blur(2.5px);
+}
+.fuel-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.fuel-box-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+
+  color: #ffffff;
+}
+.fuel-box-desc {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #cecece;
+}
+.fuel-box-btn {
+  /* width: 350px; */
+  /* height: 50px; */
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #ffffff;
+
+  background: #dba833;
+  border-radius: 5px;
 }
