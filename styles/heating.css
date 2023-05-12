@@ -1,0 +1,136 @@
+header {
+  margin-bottom: 40px;
+}
+.header-wrapper {
+  height: 1142px;
+  display: flex;
+  flex-direction: column;
+  justify-content: unset;
+  align-items: center;
+}
+.header-content {
+  margin-top: 60px;
+  text-align: center;
+}
+.header-content-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+
+  color: #fff;
+}
+.header-content-title span {
+  color: #dba833;
+}
+.header-content-cards {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-content--card {
+  padding: 10px;
+  margin-right: 40px;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #dba833;
+
+  background: #242424;
+  border: 2px dashed #dba833;
+}
+.header-content-desc {
+  margin-top: 30px;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #cecece;
+}
+.header-content-btn {
+  margin-top: 30px;
+  padding: 15px 60px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+
+  background: #dba833;
+  border-radius: 5px;
+}
+
+.fuel-card {
+  text-align: center;
+}
+.fuel-card-wrapper {
+  margin: 0 auto;
+  max-width: 1084px;
+  display: flex;
+  align-items: center;
+
+  background: #ffffff;
+  border: 2px dashed #828282;
+  border-radius: 40px;
+}
+.fuel-card_img {
+  padding-bottom: 20px;
+}
+.fuel-card_text {
+  flex-basis: 580px;
+}
+.fuel-card_title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+
+  color: #000000;
+}
+.fuel-card_paragraph {
+  margin-bottom: 20px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #5b5b5b;
+}
+.fuel-card_btn {
+  padding: 13px 100px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #dba833;
+  border: 2px solid #dba833;
+  border-radius: 5px;
+}
+
+.buy-fuel-cards {
+  display: flex;
+  align-items: center;
+}
+.buy-fuel-card {
+  width: 370px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  background: #ffffff;
+  border: 3px dashed #dba833;
+  border-radius: 30px;
+}
+.buy-fuel-card_text {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #dba833;
+}

@@ -1,211 +1,420 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/global.css">
-    <link rel="stylesheet" href="styles/index.css" />
-    <title>Главная</title>
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="header-wrapper">
-          <div class="nav-wrapper">
-            <div class="logo">
-              <img src="img/logo.png" alt="" />
-            </div>
-            <div class="navbar">
-              <div class="nav-top">
-                <a href="index.html" class="nav-top-item">Главная</a>
-                <a href="diesel.html" class="nav-top-item">Дизельное топливо</a>
-                <a href="minigas.html" class="nav-top-item">Мини-АЗС</a>
-                <a href="heating.html" class="nav-top-item">Печное топливо</a>
-                <a href="marine.html" class="nav-top-item">Судовое топливо</a>
-                <a href="blog.html" class="nav-top-item">Блог</a>
-                <a href="contacts.html" class="nav-top-item">Контакты</a>
-                <a href="#" class="nav-top-item">
-                  <i class="bi bi-box-arrow-right"></i>
-                  Личный кабинет</a
-                >
-              </div>
-              <div class="nav-bottom">
-                <div class="nav-bottom-item">
-                  <i class="bi bi-stopwatch"></i>
-                  Пн-Пт: 9:00 – 19:00
-                </div>
-                <div class="nav-bottom-item">
-                  <i class="bi bi-envelope"></i>
-                  info@neftekor.ru
-                </div>
-                <div class="nav-bottom-item">
-                  <i class="bi bi-telephone"></i>
-                  <a href="#">+7(495)7965383</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-    </header>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="styles/reset.css" />
+  <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/diesel.css" />
+  <title>Главная</title>
+</head>
 
-
-
-
-
-
-
-
-
-
-
-
-    <section class="contacts-us">
-      <div class="form-container">
-        <form class="contacts-form">
-          <div>
-            <h2 class="contacts-form_title rubik_title">
-              Свяжитесь <span>с нами!</span>
-            </h2>
-            <input type="text" class="contacts-form_input" placeholder="Имя" />
-            <input
-              type="text"
-              class="contacts-form_input"
-              placeholder="Телефон"
-            />
-          </div>
-          <div class="btn__group">
-            <button class="contacts-form_btn">Отправить</button>
-            <label
-              >Согласен с <a href="#">политикой конфиденциальности</a></label
-            >
-          </div>
-        </form>
-      </div>
-    </section>
-    <section class="team">
-      <div class="team-title rubik_title">Наша <span>команда</span></div>
-      <div class="team-container">
-        <div class="team-items">
-          <div class="team-item">
-            <div class="team-item_img">
-              <img src="img/team1.png" alt="" />
-            </div>
-            <div class="team-item_title">Олег Костенко</div>
-            <div class="team-item_desc">Менеджер по работе с клиентами</div>
-            <div class="team-item_number">
-              <a href="#">+ 7 999 999 99 99</a>
-            </div>
-          </div>
-          <div class="team-item">
-            <div class="team-item_img">
-              <img src="img/team2.png" alt="" />
-            </div>
-            <div class="team-item_title">Олег Костенко</div>
-            <div class="team-item_desc">Менеджер по работе с клиентами</div>
-            <div class="team-item_number">
-              <a href="#">+ 7 999 999 99 99</a>
-            </div>
-          </div>
-          <div class="team-item">
-            <div class="team-item_img">
-              <img src="img/team3.png" alt="" />
-            </div>
-            <div class="team-item_title">Олег Костенко</div>
-            <div class="team-item_desc">Менеджер по работе с клиентами</div>
-            <div class="team-item_number">
-              <a href="#">+ 7 999 999 99 99</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="map">
-      <script
-        type="text/javascript"
-        charset="utf-8"
-        async
-        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3924ff85e991b513cd3c55da6d67d5f1f38c5c14cc2b298179f944ea775fa2f5&amp;width=100%25&amp;height=634&amp;lang=ru_RU&amp;scroll=true"
-      ></script>
-    </section>
-    <footer class="footer">
-      <div class="container">
-        <div class="upper-menu">
-          <div class="footer-logo">
+<body>
+  <header>
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="nav-wrapper">
+          <div class="logo">
             <img src="img/logo.png" alt="" />
           </div>
-          <div class="documents-link">
-            <a href="#" class="documents-link--item"
-              >Отсутствие посредников на всех этапах топливного обеспечения.
-            </a>
-            <a href="#" class="documents-link--item"
-              >Закупка напрямую с НПЗ, собственное производство емкостей,
-              <br />ТРК и мини АЗС.
-            </a>
-            <a href="#" class="documents-link--item"
-              >Поставка топлива своими бензовозами.</a
-            >
-          </div>
-          <div class="menu-link">
-            <div>
-              <a href="index.html" class="menu-link--item">Главная</a>
-              <a href="diesel.html" class="menu-link--item">Дизельное топливо</a>
-              <a href="minigas.html" class="menu-link--item">Мини-АЗС</a>
+          <div class="navbar">
+            <div class="nav-top">
+              <a href="index.html" class="nav-top-item">Главная</a>
+              <a href="diesel.html" class="nav-top-item">Дизельное топливо</a>
+              <a href="minigas.html" class="nav-top-item">Мини-АЗС</a>
+              <a href="heating.html" class="nav-top-item">Печное топливо</a>
+              <a href="marine.html" class="nav-top-item">Судовое топливо</a>
+              <a href="blog.html" class="nav-top-item">Блог</a>
+              <a href="contacts.html" class="nav-top-item">Контакты</a>
+              <a href="#" class="nav-top-item">
+                <i class="bi bi-box-arrow-right"></i>
+                Личный кабинет</a>
             </div>
-            <div>
-              <a href="heating.html" class="menu-link--item">Печное топливо</a>
-              <a href="marine.html" class="menu-link--item">Судовое топливо</a>
-              <a href="blog.html" class="menu-link--item">Блог</a>
+            <div class="nav-bottom">
+              <div class="nav-bottom-item">
+                <i class="bi bi-stopwatch"></i>
+                Пн-Пт: 9:00 – 19:00
+              </div>
+              <div class="nav-bottom-item">
+                <i class="bi bi-envelope"></i>
+                info@neftekor.ru
+              </div>
+              <div class="nav-bottom-item">
+                <i class="bi bi-telephone"></i>
+                <a href="#">+7(495)7965383</a>
+              </div>
             </div>
           </div>
-          <button class="login-cabinet">
-            <i class="bi bi-box-arrow-right"></i>
-            Личный кабинет
-          </button>
         </div>
-        <div class="footer-line"></div>
-        <div class="lower-menu">
-          <div>
-            <div class="copyright">©2022 Все права защищены</div>
-            <div class="police">
-              <a href="#">Политика конфиденциальности</a>
+        <div class="header-content">
+          <h2 class="header-content-title"><span>Поставка</span> дизельного <br> топлива <span>Евро 5</span> в Москве
+            <br> и
+            Московской области
+          </h2>
+          <div class="header-content-cards">
+            <div class="header-content--card">
+              Оптовые цены
+            </div>
+            <div class="header-content--card">
+              высокое качество топлива
+            </div>
+            <div class="header-content--card">
+              быстрая доставка
             </div>
           </div>
-          <div>
-            <div class="social">
-              <div class="social-title">Мы в соцсетях:</div>
-              <div class="social-items">
-                <a href="#" class="social--item">
-                  <img src="img/fsocial1.png" alt="" />
-                </a>
-                <a href="#" class="social--item">
-                  <img src="img/fsocial2.png" alt="" />
-                </a>
-                <a href="#" class="social--item">
-                  <img src="img/fsocial3.png" alt="" />
-                </a>
-                <a href="#" class="social--item">
-                  <img src="img/fsocial4.png" alt="" />
-                </a>
+          <div class="header-content-desc">От 1000 литров и от 46 рублей за литр</div>
+          <button class="header-content-btn">Заказать звонок</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="diesel-fuel-type">
+    <div class="type-container">
+      <div class="type-cards">
+        <div class="type-card">
+          <div class="type-card_img">
+            <img src="img/dcard1.png" alt="">
+          </div>
+          <div class="type-card_text">
+            <div class="type-card_title">Летнее дизельное топливо (Сорт С)</div>
+            <div class="type-card_paragraph">Летнее дизтопливо получают в результате перегонки сырой нефти, путём
+              смешивания гидроочищенных прямогонных и вторичных
+              углеводородных фракций с температурой выкипания от 40 до 250 град С.</div>
+            <button class="type-card_btn">Заказать</button>
+          </div>
+        </div>
+        <div class="type-card">
+          <div class="type-card_img">
+            <img src="img/dcard2.png" alt="">
+          </div>
+          <div class="type-card_text">
+            <div class="type-card_title">Межсезонное дизельное топливо (Сорт Е)</div>
+            <div class="type-card_paragraph">Предназначено для работы двигателей при температуре окружающей среды до -15
+              °С. Обеспечивает быстрый запуск двигателя и
+              его стабильную работу, подходит для сельскохозяйственной и грузовой техники.</div>
+            <button class="type-card_btn">Заказать</button>
+          </div>
+        </div>
+        <div class="type-card">
+          <div class="type-card_img">
+            <img src="img/dcard3.png" alt="">
+          </div>
+          <div class="type-card_text">
+            <div class="type-card_title">Зимнее дизельное топливо (Сорт F)</div>
+            <div class="type-card_paragraph">Это особая марка дизельного топлива, которое обладает морозоустойчивыми
+              свойствами. Именно такое топливо необходимо для
+              корректной и безопасной работы двигателей при минусовых температурах.</div>
+            <button class="type-card_btn">Заказать</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contract-company">
+    <div class="container">
+      <div class="contract__inner">
+        <h2 class="contract-title rubik_title">
+          <span>Производители</span> качественного топлива
+        </h2>
+        <div class="contract-desc text-desc">
+          С которыми у нас прямые договора. Вы получите топливо без
+          посредников
+        </div>
+        <div class="contract-list">
+          <img src="img/tatneft.png" alt="" class="contract-img" />
+          <img src="img/rosneft.png" alt="" class="contract-img" />
+          <img src="img/gasprom.png" alt="" class="contract-img" />
+          <img src="img/lykoil.png" alt="" class="contract-img" />
+          <img src="img/bashneft.png" alt="" class="contract-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="geography-delivery">
+    <div class="container">
+      <h2 class="delivery-title rubik_title">
+        География <span>поставок</span>
+      </h2>
+      <img src="img/map.png" alt="" class="delivery-map" />
+    </div>
+  </section>
+  <section class="clients">
+    <div class="container">
+      <h2 class="clients-title rubik_title"><span>Клиенты</span></h2>
+      <div class="clients-desc">
+        Мы поставляем дизельное топливо более 15 лет
+      </div>
+      <div class="clients-list">
+        <div><img src="img/lom.png" alt="" class="clients-img" /></div>
+        <div><img src="img/atlant.png" alt="" class="clients-img" /></div>
+        <div><img src="img/n22.png" alt="" class="clients-img" /></div>
+        <div><img src="img/deka.png" alt="" class="clients-img" /></div>
+        <div><img src="img/zitnitsa.png" alt="" class="clients-img" /></div>
+        <div><img src="img/zamosk.png" alt="" class="clients-img" /></div>
+      </div>
+    </div>
+  </section>
+  <section class="feedback">
+    <div class="container">
+      <div class="feedback__inner">
+        <h2 class="feedback-title rubik_title">Отзывы</h2>
+        <div class="feedback-items">
+          <div class="feedback--item">
+            <div class="feedback--item_prompt">
+              Наведите, чтобы посмотреть письмо
+            </div>
+            <div class="feedback--item_img">
+              <img src="img/pismo.png" alt="" />
+            </div>
+            <div class="feedback--item_text">
+              <h2 class="feedback-item_title rubik_title">ООО "ДЭКА"</h2>
+              <div class="feedback--item_paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
+              </div>
+            </div>
+          </div>
+          <div class="feedback--item">
+            <div class="feedback--item_prompt">
+              Наведите, чтобы посмотреть письмо
+            </div>
+            <div class="feedback--item_img">
+              <img src="img/pismo.png" alt="" />
+            </div>
+            <div class="feedback--item_text">
+              <h2 class="feedback-item_title rubik_title">
+                ООО "Уваровская ПМК 22"
+              </h2>
+              <div class="feedback--item_paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
+              </div>
+            </div>
+          </div>
+          <div class="feedback--item mb60">
+            <div class="feedback--item_prompt">
+              Наведите, чтобы посмотреть письмо
+            </div>
+            <div class="feedback--item_img">
+              <img src="img/pismo.png" alt="" />
+            </div>
+            <div class="feedback--item_text">
+              <h2 class="feedback-item_title rubik_title">
+                ООО "ВТОРМЕТАЛЛ"
+              </h2>
+              <div class="feedback--item_paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
               </div>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-  </body>
+    </div>
+  </section>
+  <section class="news">
+    <div class="container">
+      <div class="news__inner">
+        <div class="news-title rubik_title">
+          <span>Новости</span> топливного рынка
+        </div>
+        <div class="news--items">
+          <div class="news--item">
+            <div class="news--item_img">
+              <img src="img/camera.png" alt="" />
+            </div>
+            <div class="news--item_title">Заголовок новости</div>
+            <div class="news--item_text">
+              Текст новости новости Текст новости новости Текст новости Текст
+              новости Текст новости новости Текст новости новости Текст
+              новости Текст новости
+            </div>
+            <button class="news--item_btn">Подробнее</button>
+          </div>
+          <div class="news--item">
+            <div class="news--item_img">
+              <img src="img/camera.png" alt="" />
+            </div>
+            <div class="news--item_title">Заголовок новости</div>
+            <div class="news--item_text">
+              Текст новости новости Текст новости новости Текст новости Текст
+              новости Текст новости новости Текст новости новости Текст
+              новости Текст новости
+            </div>
+            <button class="news--item_btn">Подробнее</button>
+          </div>
+          <div class="news--item">
+            <div class="news--item_img">
+              <img src="img/camera.png" alt="" />
+            </div>
+            <div class="news--item_title">Заголовок новости</div>
+            <div class="news--item_text">
+              Текст новости новости Текст новости новости Текст новости Текст
+              новости Текст новости новости Текст новости новости Текст
+              новости Текст новости
+            </div>
+            <button class="news--item_btn">Подробнее</button>
+          </div>
+        </div>
+        <button class="news-btn">Смотреть все новости</button>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  <section class="contacts-us">
+    <div class="form-container">
+      <form class="contacts-form">
+        <div>
+          <h2 class="contacts-form_title rubik_title">
+            Свяжитесь <span>с нами!</span>
+          </h2>
+          <input type="text" class="contacts-form_input" placeholder="Имя" />
+          <input type="text" class="contacts-form_input" placeholder="Телефон" />
+        </div>
+        <div class="btn__group">
+          <button class="contacts-form_btn">Отправить</button>
+          <label>Согласен с <a href="#">политикой конфиденциальности</a></label>
+        </div>
+      </form>
+    </div>
+  </section>
+  <section class="team">
+    <div class="team-title rubik_title">Наша <span>команда</span></div>
+    <div class="team-container">
+      <div class="team-items">
+        <div class="team-item">
+          <div class="team-item_img">
+            <img src="img/team1.png" alt="" />
+          </div>
+          <div class="team-item_title">Олег Костенко</div>
+          <div class="team-item_desc">Менеджер по работе с клиентами</div>
+          <div class="team-item_number">
+            <a href="#">+ 7 999 999 99 99</a>
+          </div>
+        </div>
+        <div class="team-item">
+          <div class="team-item_img">
+            <img src="img/team2.png" alt="" />
+          </div>
+          <div class="team-item_title">Олег Костенко</div>
+          <div class="team-item_desc">Менеджер по работе с клиентами</div>
+          <div class="team-item_number">
+            <a href="#">+ 7 999 999 99 99</a>
+          </div>
+        </div>
+        <div class="team-item">
+          <div class="team-item_img">
+            <img src="img/team3.png" alt="" />
+          </div>
+          <div class="team-item_title">Олег Костенко</div>
+          <div class="team-item_desc">Менеджер по работе с клиентами</div>
+          <div class="team-item_number">
+            <a href="#">+ 7 999 999 99 99</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="map">
+    <script type="text/javascript" charset="utf-8" async
+      src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3924ff85e991b513cd3c55da6d67d5f1f38c5c14cc2b298179f944ea775fa2f5&amp;width=100%25&amp;height=634&amp;lang=ru_RU&amp;scroll=true"></script>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="upper-menu">
+        <div class="footer-logo">
+          <img src="img/logo.png" alt="" />
+        </div>
+        <div class="documents-link">
+          <a href="#" class="documents-link--item">Отсутствие посредников на всех этапах топливного обеспечения.
+          </a>
+          <a href="#" class="documents-link--item">Закупка напрямую с НПЗ, собственное производство емкостей,
+            <br />ТРК и мини АЗС.
+          </a>
+          <a href="#" class="documents-link--item">Поставка топлива своими бензовозами.</a>
+        </div>
+        <div class="menu-link">
+          <div>
+            <a href="index.html" class="menu-link--item">Главная</a>
+            <a href="diesel.html" class="menu-link--item">Дизельное топливо</a>
+            <a href="minigas.html" class="menu-link--item">Мини-АЗС</a>
+          </div>
+          <div>
+            <a href="heating.html" class="menu-link--item">Печное топливо</a>
+            <a href="marine.html" class="menu-link--item">Судовое топливо</a>
+            <a href="blog.html" class="menu-link--item">Блог</a>
+          </div>
+        </div>
+        <button class="login-cabinet">
+          <i class="bi bi-box-arrow-right"></i>
+          Личный кабинет
+        </button>
+      </div>
+      <div class="footer-line"></div>
+      <div class="lower-menu">
+        <div>
+          <div class="copyright">©2022 Все права защищены</div>
+          <div class="police">
+            <a href="#">Политика конфиденциальности</a>
+          </div>
+        </div>
+        <div>
+          <div class="social">
+            <div class="social-title">Мы в соцсетях:</div>
+            <div class="social-items">
+              <a href="#" class="social--item">
+                <img src="img/fsocial1.png" alt="" />
+              </a>
+              <a href="#" class="social--item">
+                <img src="img/fsocial2.png" alt="" />
+              </a>
+              <a href="#" class="social--item">
+                <img src="img/fsocial3.png" alt="" />
+              </a>
+              <a href="#" class="social--item">
+                <img src="img/fsocial4.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
