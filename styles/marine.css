@@ -1,0 +1,164 @@
+header {
+  margin-bottom: 70px;
+}
+.header-wrapper {
+  height: 1142px;
+  display: flex;
+  flex-direction: column;
+  justify-content: unset;
+  align-items: center;
+}
+.header-content {
+  margin-top: 60px;
+  text-align: center;
+}
+.header-content-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+
+  color: #fff;
+}
+.header-content-title span {
+  color: #dba833;
+}
+.header-content-cards {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-content--card {
+  padding: 10px;
+  margin-right: 40px;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #dba833;
+
+  background: #242424;
+  border: 2px dashed #dba833;
+}
+.header-content-desc {
+  margin-top: 30px;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #cecece;
+}
+.header-content-btn {
+  margin-top: 30px;
+  padding: 15px 60px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+
+  background: #dba833;
+  border-radius: 5px;
+}
+
+.notification {
+  margin-bottom: 80px;
+}
+.notification-wrapper {
+  max-width: 976px;
+  margin: 0 auto;
+  border: 3px dashed #5b5b5b;
+  border-radius: 20px;
+}
+.notification__title {
+  padding: 36px 30px;
+  text-align: center;
+}
+
+.advantages {
+  margin-bottom: 120px;
+  text-align: center;
+}
+.advantages__title {
+  margin-bottom: 10px;
+}
+.advantages__desc {
+  margin-bottom: 30px;
+}
+.advantages__cards {
+  display: flex;
+}
+.advantages__card {
+  max-width: 390px;
+  max-height: 290px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border: 3px dashed #dba833;
+  border-radius: 30px;
+}
+.advantages__card_img {
+  padding-top: 30px;
+}
+.advantages__card_text {
+  margin-top: 15px;
+  padding-bottom: 24px;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #dba833;
+}
+
+.info-block {
+  margin-bottom: 130px;
+
+  text-align: center;
+
+  background-image: url("../img/marine_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.info-block__inner {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.info-block__title {
+  margin-bottom: 15px;
+
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+
+  color: #ffffff;
+}
+.info-block__title span {
+  color: #dba833;
+}
+.info-block__desc {
+  margin-bottom: 25px;
+  color: #cecece;
+}
+.info-block__button {
+  padding: 15px 60px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+
+  background: #dba833;
+  border-radius: 5px;
+}

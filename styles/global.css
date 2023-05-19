@@ -6,8 +6,8 @@ header {
   background-image: url("../img/bg-header.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   height: 1142px;
-  /* background-size: 100% 100%; */
 }
 .rubik_title {
   font-family: "Rubik", sans-serif;
@@ -274,6 +274,9 @@ header {
 
 .contacts-us {
   background-image: url("../img/formbg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .form-container {
   margin: 0 auto;
@@ -341,6 +344,9 @@ header {
 
 .team {
   background-image: url("../img/bgteam.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .team-title {
   padding-top: 35px;
@@ -452,6 +458,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.lower-menu div {
+  display: flex;
 }
 .copyright,
 .police a {

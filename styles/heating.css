@@ -66,6 +66,7 @@ header {
 
 .fuel-card {
   text-align: center;
+  margin-bottom: 80px;
 }
 .fuel-card-wrapper {
   margin: 0 auto;
@@ -110,15 +111,23 @@ header {
   border-radius: 5px;
 }
 
+.buy-fuel {
+  margin-bottom: 130px;
+}
+.buy-fuel-title {
+  margin-bottom: 20px;
+}
 .buy-fuel-cards {
   display: flex;
   align-items: center;
 }
 .buy-fuel-card {
   width: 370px;
+  height: 200px;
   margin-right: 20px;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   flex-direction: column;
 
   background: #ffffff;
@@ -133,4 +142,24 @@ header {
   text-align: center;
 
   color: #dba833;
+}
+
+.use-fuel {
+  text-align: center;
+}
+.use-fuel_title {
+  margin-bottom: 10px;
+}
+.use-fuel_desc {
+  margin-bottom: 20px;
+}
+.use-fuel-cards {
+  display: flex;
+}
+.use-fuel-card {
+  margin-right: 21px;
+}
+
+.contract-company {
+  margin-top: 120px;
 }
